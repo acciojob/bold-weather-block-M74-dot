@@ -3,7 +3,7 @@ body{
 	background-image:linear-gradient(#b96fa1,#5a3f8c);
 }
 .selected-location{
-	font-family:'roboto',sans-serif;
+	font-family:'Roboto';
 	font-size:25px;
 	font-weight:600;
 	color:white;
@@ -24,5 +24,6 @@ body{
 @media (min-width:900px){
 	.weather-block{
 		display:flex;
+		flex-direction:row;
 	}
 }
