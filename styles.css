@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body{
+	background-image:linear-gradient(#b96fa1,#5a3f8c);
+}
+.selected-location{
+	font-family:'roboto',sans-serif;
+	font-size:25px;
+	font-weight:600;
+	color:white;
+}
+.weather-block{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	gap:20px;
+}
+.item-temp{
+	color:white;
+	font-size:20px;
+}
+.item-temp-number1 {
+    font-weight: 600;
+}
+@media (min-width:900px){
+	.weather-block{
+		display:flex;
+	}
+}
